@@ -1,0 +1,16 @@
+create database Exposicion
+
+use Exposicion
+
+create table servivo (nombre varchar(50), cantidad int,zona varchar(20)  primary key)
+
+create table Bovinos (nombre varchar(50), fecha varchar(20),calorias int)
+
+create table Felinos (nombre varchar(50), fecha varchar(20),jugueteFavorito varchar(20))
+
+create table Suculentas (nombre varchar(50), formaHoja varchar(20),tipoSuculenta varchar(20))
+
+create table Verduras (nombre varchar(50), formaHoja varchar(20),calorias int)
+
+
+select Bovinos.calorias,Bovinos.nombre from Bovinos
